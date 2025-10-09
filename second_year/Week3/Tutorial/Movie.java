@@ -33,9 +33,9 @@ public class Movie {
 
     @Override
     public String toString(){
-        return "Director{" + 
-    "Title=" + title + "\'" + 
-    "Category=" + category + "\'" +
-    "Director=" + director.getDirectorInfo() + "}";
+        return "Movie{" + 
+    "Title=" + title + " " + 
+    "Category=" + category + " " +
+    "Director{\n" + director.getDirectorInfo() + "}";
     }
 }

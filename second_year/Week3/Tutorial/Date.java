@@ -39,7 +39,7 @@ public class Date{
     }
 
     public String toString(){
-        return "Day = " + day + " Month = " + month + " Year = " + year ; 
+        return "{Day = " + day + " Month = " + month + " Year = " + year + "}" ; 
     }
     // @Override
     // public String toString(){

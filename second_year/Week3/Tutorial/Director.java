@@ -35,8 +35,8 @@ public class Director {
     @Override
     public String toString(){
     return "Director{" + 
-    "Name=" + name + "\'" + 
-    "Surname=" + surname + "\'" +
+    "Name=" + name + " " + 
+    "Surname=" + surname + " " +
     "DOB=" + dob.getDate() + "}";
     } 
 }
