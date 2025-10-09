@@ -1,3 +1,5 @@
+package Tutorial; 
+
 public class Date{
     private int day; 
     private int month; 
@@ -35,12 +37,15 @@ public class Date{
     public String getDate(){
         return toString(); 
     }
-    @Override
-    public String toString(){
-    return "Date{" + 
-    "day=" + day + "\'" + 
-    "month=" + month + "\'" +
-    "year=" + year + "}";
-    } 
 
+    public String toString(){
+        return "Day = " + day + " Month = " + month + " Year = " + year ; 
+    }
+    // @Override
+    // public String toString(){
+    // return "Date{" + 
+    // "day=" + day + "\'" + 
+    // "month=" + month + "\'" +
+    // "year=" + year + "}";
+    // } 
 }
