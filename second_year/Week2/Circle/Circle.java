@@ -3,7 +3,6 @@ package Circle;
 public class Circle {
     private double radius; 
     private String color; 
-    private double area ;
     public Circle(){
         this.radius = 1;
         this.color = "Blue";
@@ -20,7 +19,6 @@ public class Circle {
     }
     public double getArea(){
         double area = this.radius * this.radius * 3.14;
-        this.area = area;
         return area;
     }
     public double getRadius(){
@@ -41,7 +39,7 @@ public String toString(){
     return "Stduent{" + 
     "radius=" + radius + "\'" + 
     "area=" + color + "\'" +
-    "area=" + area + "}";
+    "area=" + getArea() + "}";
     } 
 }
 
