@@ -34,6 +34,6 @@ public class Circle {
     }
     @Override
     public String toString(){
-        return "Circle \n\t{ radius : " + radius + "\n\t Area : " + getArea() + "}" ;
+        return "Circle \n\t{ \n\t\tradius : " + radius + "\n\t\t Area : " + getArea() + "\n\t}" ;
     }
 }   
