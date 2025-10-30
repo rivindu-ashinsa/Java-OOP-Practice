@@ -1,3 +1,5 @@
+package first_year.new;
+
 import java.util.Scanner;
 
 public class App {
