@@ -30,7 +30,7 @@ public abstract class LibraryItem{
         return available;
     }
 
-    abstract String getDetails();
+    public abstract String getDetails();
 
     @Override
     public String toString(){
